@@ -4,6 +4,7 @@
         <name>Primus</name>
         <size>C</size>
         <type>elemental (primordial)</type>
+        <alignment>lawful neutral</alignment>
         <speed>walk 300ft., fly 300 ft.</speed>
         <str>36</str>
         <dex>24</dex>
