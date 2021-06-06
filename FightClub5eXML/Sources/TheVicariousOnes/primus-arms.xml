@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Primus (Arms)</name>
+        <ac>35</ac>
+        <hp>1850 (50d20 + 850)</hp>
+        <cr>40</cr>
+        <immune>psychic</immune>
+        <conditionImmune>blinded, deafened</conditionImmune>
+        <trait>
+            <name>Disabled</name>
+            <text>
+                While Primus' head and torso are disabled it cannot use innate spellcasting, make an energy blast attack, and it can only make two re-order attacks when taking the multiattack action.
+            </text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>
+                Primus makes two dark hand slam attacks and two rainbow hand slam attacks.
+            </text>
+        </action>
+        <action>
+            <name>Dark Hand Slam</name>
+            <text>Melee weapon attack: +29 to hit, reach 150 ft., one target. Hit: 146 (27d8 + 25) bludgeoning damage and the creature must make a DC 29 Charisma saving throw or be banished to Acheron.</text>
+            <attack>Dark Hand Slam|+29|27d8+25</attack>
+        </action>
+        <action>
+            <name>Rainbow Hand Slam</name>
+            <text>Melee weapon attack: +29 to hit, reach 150 ft., one target. Hit: 117 )21d8 + 23) bludgeoning damage and the creature must make a DC 29 Charisma saving throw or be banished to Arcadia.</text>
+            <attack>Rainbow Hand Slam|+29|21d8+23</attack>
+        </action>
+    </monster>
+</compendium>
