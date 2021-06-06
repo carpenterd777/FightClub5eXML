@@ -3,7 +3,7 @@
     <monster>
         <name>Primus (Arms)</name>
         <ac>35</ac>
-        <hp>1850 (50d20 + 850)</hp>
+        <hp>1850 (50d20+850)</hp>
         <cr>40</cr>
         <immune>psychic</immune>
         <conditionImmune>blinded, deafened</conditionImmune>

@@ -3,7 +3,7 @@
     <monster>
         <name>Primus (Legs)</name>
         <ac>35</ac>
-        <hp>2220 (60d20 + 1020)</hp>
+        <hp>2220 (60d20+1020)</hp>
         <cr>46</cr>
         <immune>psychic</immune>
         <conditionImmune>blinded, deafened, prone</conditionImmune>
@@ -43,7 +43,7 @@
             <attack>Stomp|+29|27d10+25</attack>
         </action>
         <action>
-            <name>Enveloping Pool (1/Day)/name>
+            <name>Enveloping Pool (1/Day)</name>
             <text>Primus uses its movement to fly up to 300 feet, increasing the radius of its energy pool around its feet by 300 feet.</text>
         </action>
     </monster>

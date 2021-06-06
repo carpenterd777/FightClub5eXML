@@ -2,7 +2,7 @@
 <compendium version="5" auto_indent="NO">
     <monster>
         <name>Primus</name>
-        <size>C</size>
+        <size>G</size>
         <type>elemental (primordial)</type>
         <alignment>lawful neutral</alignment>
         <speed>walk 300ft., fly 300 ft.</speed>

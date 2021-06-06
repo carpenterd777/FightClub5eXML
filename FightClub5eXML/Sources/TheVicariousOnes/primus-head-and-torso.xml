@@ -3,7 +3,7 @@
     <monster>
         <name>Primus (Head and Torso)</name>
         <ac>35 (natural armor)</ac>
-        <hp>3390 (90d20 + 1,530)</hp>
+        <hp>3390 (90d20+1530)</hp>
         <cr>50</cr>
         <trait>
             <name>Disabled</name>
