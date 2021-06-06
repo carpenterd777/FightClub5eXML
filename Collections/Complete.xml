@@ -477,4 +477,8 @@
     <doc href="../FightClub5eXML/Sources/ThirdParty/TomeOfBeasts.xml" />
     <doc href="../FightClub5eXML/Sources/ThirdParty/CreatureCodex.xml" />
     <doc href="../FightClub5eXML/Sources/TheVicariousOnes/primus.xml"/>
+    <doc href="../FightClub5eXML/Sources/TheVicariousOnes/primus-head-and-torso.xml" />
+    <doc href="../FightClub5eXML/Sources/TheVicariousOnes/primus-arms.xml" />
+    <doc href="../FightClub5eXML/Sources/TheVicariousOnes/primus-legs.xml" />
+
 </collection>
