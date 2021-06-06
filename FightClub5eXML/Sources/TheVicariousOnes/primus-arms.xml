@@ -10,7 +10,7 @@
         <trait>
             <name>Disabled</name>
             <text>
-                While Primus' head and torso are disabled it cannot use innate spellcasting, make an energy blast attack, and it can only make two re-order attacks when taking the multiattack action.
+                While Primus' arms are reduced to 925 hit points or less, they have disadvantage on their attacks, they lose the siege monster trait, and they can only make one dark hand slam and one rainbow hand slam attack per turn. These penalties are lifted after Primus' arms have regained 200 hit points.
             </text>
         </trait>
         <action>
