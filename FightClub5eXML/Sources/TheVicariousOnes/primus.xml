@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Primus</name>
+        <size>C</size>
+        <type>elemental (primordial)</type>
+        <speed>walk 300ft., fly 300 ft.</speed>
+        <str>36</str>
+        <dex>24</dex>
+        <con>45</con>
+        <int>40</int>
+        <wis>30</wis>
+        <cha>38</cha>
+        <save>Str +29, Dex +17, Con +32, Int +30, Wis +25, Cha +29</save>
+        <skill>Arcana +30, History +30, Insight +25, Investigation +30, Nature +30, Perception +25, Persuasion +25, Religion +30</skill>
+        <passive>35</passive>
+        <languages>All, telepathy 1000 ft.</languages>
+        <cr>45</cr>
+        <resist>radiant</resist>
+        <immune>acid, cold, fire, force, lightning, thunder</immune>
+        <vulnerable></vulnerable>
+        <conditionImmune>petrified</conditionImmune>
+        <senses>tremorsense 1000 ft., truesight 600 ft.</senses>
+        <trait>
+            <name>Colossal</name>
+            <text>Primus's space is 150 feet by 150 feet and it is approximately 180 feet tall. Any creature less than 30 feet tall can enter its space and any such creature must be within Primus's space to be considered adjacent. Any creature 30 feet tall or smaller can only target Primus's legs unless it is able to fly, the attack range is greater than 60 feet, or it is using the climb onto a bigger creature rules in the DMG. If Primus' targets a Medium or smaller creature, any creature within 5 feet of the initial target must make a DC 37 Dexterity saving throw or take the same damage and effects as the initial target.</text>
+        </trait>
+        <trait>
+            <name>Colossal Parts</name>
+            <text>
+                Refer to the Primordial Traits. In addition, Primus has three parts: head and torso, arms, and legs.
+            </text>
+        </trait>
+        <action>
+            <name>Impose Order</name>
+            <text>
+                Primus can use a bonus action to perform one of the following functions:
+            </text>
+            <text>
+                • Banish (Recharge 5-6). All creatures of Primus' choice within 1,200 feet of it must make a DC 29 Charisma saving throw or be banished, returning to their plane of origin.
+            </text>
+            <text>
+                • Repair (Recharge 5-6). Primus has a pool of 1,000 hit points it can draw on to repair damage to modrons and constructs. All modrons and constructs of Primus' choice, within 1,200 feet of it, regain hit points in an amount determined by Primus; however, the total hit points regained by all modrons and constructs cannot exceed the pool's total.
+            </text>
+            <text>
+                • Regulate. Each creature of Primus' choice within 1,200 feet of it must make a DC 29 saving throw to maintain concentration on active spells.
+            </text>
+            <text>
+                • Simplify. All creatures of Primus' choice within 1,200 feet of it must make a DC 29 saving throw. On a failed save, the creature cannot take bonus actions or reactions until the end of Primus' next turn.
+            </text>
+        </action>
+        <trait>
+            <name>Legendary Resistance</name>
+            <text>
+                Refer to Primordial Traits.
+            </text>
+        </trait>
+        <trait>
+            <name>Limited Magic Immunity</name>
+            <text>
+                Unless Primus wished to be affected, it is immune to spells of 9th level of lower, and it has advantage on all other spells and magical effects.
+            </text>
+        </trait>
+        <trait>
+            <name>Magic Weapons</name>
+            <text>
+                Refer to Primordial Traits.
+            </text>
+        </trait>
+        <trait>
+            <name>Primordial Might</name>
+            <text>Refer to Primordial Traits.</text>
+        </trait>
+        <trait>
+            <name>Primordial Slumber</name>
+            <text>Primus does not enter a primordial slumber like most primordials. If all of its parts are disabled, Primus disintegrates. The next round, the secundus that is closest to Primus is transformed into Primus, assuming all of its powers and abilities but none of its memories.</text>
+        </trait>
+        <trait>
+            <name>Regeneration</name>
+            <text>
+                Primus' parts regain 50 hit points at the start of their turns.
+            </text>
+        </trait>
+        <trait>
+            <name>Siege Monster</name>
+            <text>
+                Primus deals double damage to objects and structures.
+            </text>
+        </trait>
+        <trait>
+            <name>Temporal Order</name>
+            <text>
+                At the beginning of each round, Primus may choose the initiative count of its parts, winning any ties; however, it cannot exceed its maximum initiative.
+            </text>
+        </trait>
+        <trait>
+            <name>The One and the Prime</name>
+            <text>
+                Primus is telepathically linked, as the spell telepathy, to all modrons on Mechanus, or to all within 840 miles of it when not on Mechanus. Primus can issue commands to any modron to which it is linked. Additionally, Primus' link with the secundi has no range limit.
+            </text>
+        </trait>
+    </monster>
+</compendium>
