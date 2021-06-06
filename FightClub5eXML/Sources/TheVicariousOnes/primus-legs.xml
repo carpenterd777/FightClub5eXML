@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<compendium version="5" auto_indent="NO">
+    <monster>
+        <name>Primus (Legs)</name>
+        <ac>35</ac>
+        <hp>2220 (60d20 + 1020)</hp>
+        <cr>46</cr>
+        <immune>psychic</immune>
+        <conditionImmune>blinded, deafened, prone</conditionImmune>
+        <trait>
+            <name>Disabled</name>
+            <text>
+                While Primus' legs are reduced to 1,110 hit points its speed is reduced in half, it loses the trait siege monster, can only make two stomp attacks per turn, losts the trait energy pool and energy step, and its stomp attacks suffer disadvantage. These penalties are lifted after Primus' legs have regained 200 hit points.
+            </text>
+        </trait>
+        <trait>
+            <name>Energy Pool</name>
+            <text>
+                Primus' legs are surrounded in a swirl of energy. The energy emnates out from its body in a 10-foot radius at Primus' waist, increasing conically until it reaches a 150-foot radius at Primus' feet. Each creature of Primus' choice that starts or ends it turn within the energy pool must make a DC 29 Constitution saving throw, taking 22 (4d10) acid damage, 22 (4d10) cold damage, 22 (4d10) fire damage, 22 (4d10) force damage, 22 (4d10) lightning damage, and 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one. If a creature is reduced to 0 hit points by the energy pool it is disintegrated and rises from it own dust as a monodrone at the start of its next turn.
+            </text>
+        </trait>
+        <trait>
+            <name>Energy Step</name>
+            <text>
+                When Primus hits another creature with a Stomp attack, it inflicts an additional 55 (10d10) acid, cold, fire, force, lightning, or thunder damage (included in the attack). Primus chooses the damage type. However, once it has used an damage type in this way, it cannot use that damage type once again until it has used all of the other damage types at least once. This proess repeats itself after all damage types have been used.
+            </text>
+        </trait>
+        <trait>
+            <name>Trample</name>
+            <text>
+                When Primus moves it can enter another creature's space. The first time Primus enter a creature's space, it can make a Stomp attack on targeting that creature. When Primus makes a stomp attack, it costs 75 feet of movement.
+            </text>
+        </trait>
+        <action>
+            <name>Multiattack</name>
+            <text>
+                Primus makes four stomp attacks.
+            </text>
+        </action>
+        <action>
+            <name>Stomp</name>
+            <text>Melee weapon attack: +29 to hit, reach 75 ft., one target. Hit: 173 (27d10 + 25) bludgeoning damage plus 110 (20d10) elemental damage, refer to Energy Step.</text>
+            <attack>Stomp|+29|27d10+25</attack>
+        </action>
+        <action>
+            <name>Enveloping Pool (1/Day)/name>
+            <text>Primus uses its movement to fly up to 300 feet, increasing the radius of its energy pool around its feet by 300 feet.</text>
+        </action>
+    </monster>
+</compendium>
