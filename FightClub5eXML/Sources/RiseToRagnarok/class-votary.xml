@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <compendium version="5" auto_indent="NO">
-    <class>
-      <name>Votary</name>
+  <class>
+    <name>Votary</name>
     <hd>8</hd>
     <proficiency>Wisdom, Charisma, History, Insight, Medicine, Persuasion, Religion</proficiency>
     <numSkills>2</numSkills>
     <spellAbility>Wisdom</spellAbility>
     <autolevel level="1">
-        <feature optional="YES">
-          <name>Starting Votary</name>
+      <feature optional="YES">
+        <name>Starting Votary</name>
         <text>As a 1st-level votary, you begin play with 8+your Constitution modifier hit points.</text>
         <text></text>
         <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
@@ -23,11 +23,11 @@
         <text>• (a) a light crossbow and Crossbow Bolts (20) or (b) any simple weapon</text>
         <text>• (a) a priest's pack or (b) an explorer's pack</text>
         <text>• A shield and a holy symbol</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="1">
-        <feature optional="YES">
-          <name>Multiclass Votary</name>
+      <feature optional="YES">
+        <name>Multiclass Votary</name>
         <text>To multiclass as a votary, you must meet the following prerequisites:</text>
         <text>• Wisdom 13</text>
         <text></text>
@@ -35,18 +35,18 @@
         <text>• Armor: light, medium, shields</text>
         <text>• Weapons: none</text>
         <text>• Tools: none</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <armor>light, medium, shields</armor>
     <weapons>simple</weapons>
     <tools>none</tools>
     <wealth>5d4x10</wealth>
     <autolevel level="1">
-        <slots>3, 2</slots>
-      </autolevel>
+      <slots>3, 2</slots>
+    </autolevel>
     <autolevel level="1">
-        <feature>
-          <name>Spellcasting</name>
+      <feature>
+        <name>Spellcasting</name>
         <text>As a conduit for divine power, you can cast votary spells. See chapter 10 for the general rules of spellcasting and chapter 11 for a selection of votary spells.</text>
         <text></text>
         <text>Cantrips:</text>
@@ -66,21 +66,21 @@
         <text></text>
         <text>Spellcasting Focus:</text>
         <text>   You can use a holy symbol as a spellcasting focus for your votary spells.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="1">
-        <feature>
-          <name>Divine Domain</name>
+      <feature>
+        <name>Divine Domain</name>
         <text>Choose one domain related both to your vow and your deity. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain the feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.</text>
         <text></text>
         <text>Domain Spells:</text>
         <text>   Each domain has a list of spells—its domain spells—that you gain at the votary levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.</text>
         <text>   If you have a domain spell that doesn't appear on the votary spell list, the spell is nonetheless a votary spell for you.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="1">
-        <feature optional="YES">
-          <name>Divine Domain: Will Domain</name>
+      <feature optional="YES">
+        <name>Divine Domain: Will Domain</name>
         <text>Cunning, strength, discipline, leadership—all are needed in order for those gods representing will. These generalist gods often have generalist devotees, or worshippers of varying expertises. Leader gods such as Odin may come to represent an idea as abstract as will.</text>
         <text>At each indicated votary level, you add the listed spells to your spells prepared.</text>
         <text></text>
@@ -91,233 +91,233 @@
         <text>5th | haste, protection from energy</text>
         <text>7th | freedom of movement, compulsion</text>
         <text>9th | hold monster, destructive wave</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="2">
-        <slots>3, 3</slots>
-      </autolevel>
+      <slots>3, 3</slots>
+    </autolevel>
     <autolevel level="2">
-        <feature>
-          <name>Channel Divinity (1/rest)</name>
+      <feature>
+        <name>Channel Divinity (1/rest)</name>
         <text>At 2nd level, you gain the ability to channel divine energy directly from your deity and the relationship to your vow, using that energy to fuel magical effects. You start with two such effects: Turn Monstrosity and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted  in the domain description.</text>
         <text>When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.</text>
         <text>Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your votary spell save DC.</text>
         <text>Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.</text>
-        </feature>
-      </autolevel>
-    <autolevel level="2">
-        <feature>
-            <name>Channel Divinity: Turn Monstrosity</name>
-        <text>As an action, you speak your vow aloud and reference your patron deity. Each monstrosity that can see or hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</text>
-        </feature>
+      </feature>
     </autolevel>
     <autolevel level="2">
-        <feature>
-          <name>Divine Domain feature</name>
-        <text>At 2nd level, you gain a feature from your Divine Domain.</text>
-        </feature>
-      </autolevel>
+      <feature>
+        <name>Channel Divinity: Turn Monstrosity</name>
+        <text>As an action, you speak your vow aloud and reference your patron deity. Each monstrosity that can see or hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</text>
+      </feature>
+    </autolevel>
     <autolevel level="2">
-        <feature optional="YES">
-          <name>Will Domain: Channel Divinity: Guided Strike</name>
+      <feature>
+        <name>Divine Domain feature</name>
+        <text>At 2nd level, you gain a feature from your Divine Domain.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="2">
+      <feature optional="YES">
+        <name>Will Domain: Channel Divinity: Guided Strike</name>
         <text>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="3">
-        <slots>3, 4, 2</slots>
-      </autolevel>
+      <slots>3, 4, 2</slots>
+    </autolevel>
     <autolevel level="4">
-        <slots>4, 4, 3</slots>
-      </autolevel>
+      <slots>4, 4, 3</slots>
+    </autolevel>
     <autolevel level="4" scoreImprovement="YES">
-        <feature>
-          <name>Ability Score Improvement</name>
+      <feature>
+        <name>Ability Score Improvement</name>
         <text>When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
         <text>If your DM allows the use of feats, you may instead take a feat.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="5">
-        <slots>4, 4, 3, 2</slots>
-      </autolevel>
+      <slots>4, 4, 3, 2</slots>
+    </autolevel>
     <autolevel level="5">
-        <feature>
-          <name>Destroy Monstrosity (CR 1/2)</name>
+      <feature>
+        <name>Destroy Monstrosity (CR 1/2)</name>
         <text>Starting at 5th level, when a monstrosity of CR 1/2 or lower fails its saving throw against your Turn Monstrosity feature, the creature is instantly destroyed.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="6">
-        <slots>4, 4, 3, 3</slots>
-      </autolevel>
+      <slots>4, 4, 3, 3</slots>
+    </autolevel>
     <autolevel level="6">
-        <feature>
-          <name>Channel Divinity (2/rest)</name>
+      <feature>
+        <name>Channel Divinity (2/rest)</name>
         <text>Beginning at 6th level, you can use your Channel Divinity twice between rests.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="6">
-        <feature>
-          <name>Divine Domain feature</name>
+      <feature>
+        <name>Divine Domain feature</name>
         <text>At 6th level, you gain a feature from your Divine Domain.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="6">
-        <feature optional="YES">
-          <name>Will Domain: Channel Divinity: Temperance</name>
+      <feature optional="YES">
+        <name>Will Domain: Channel Divinity: Temperance</name>
         <text>At 6th level, you can control some of the divine arcana granted to you by your vow and your patron deity. When a spell or class feature would cause you to enter a state in which you cannot cast or concentrate on magic (such as a barbarian's rage) you may instead choose to enter a tempered version of that state using your Channel Divinity. When you do, select one spell from your prepared votary spells or your votary domain. You may only cast this spell for the duration of your tempered state.</text>
         <text>This feature does not allow you to cast magic while under the effects of antimagic field.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="7">
-        <slots>4, 4, 3, 3, 1</slots>
-      </autolevel>
+      <slots>4, 4, 3, 3, 1</slots>
+    </autolevel>
     <autolevel level="8">
-        <slots>4, 4, 3, 3, 2</slots>
-      </autolevel>
+      <slots>4, 4, 3, 3, 2</slots>
+    </autolevel>
     <autolevel level="8" scoreImprovement="YES">
-        <feature>
-          <name>Ability Score Improvement</name>
+      <feature>
+        <name>Ability Score Improvement</name>
         <text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
         <text>If your DM allows the use of feats, you may instead take a feat.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="8">
-        <feature>
-          <name>Destroy Monstrosity (CR 1)</name>
+      <feature>
+        <name>Destroy Monstrosity (CR 1)</name>
         <text>Starting at 8th level, when a monstrosity of CR 1 or lower fails its saving throw against your Turn Monstrosity feature, the creature is instantly destroyed.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="8">
-        <feature>
-          <name>Divine Domain feature</name>
+      <feature>
+        <name>Divine Domain feature</name>
         <text>At 8th level, you gain a feature from your Divine Domain.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="8">
-        <feature optional="YES">
-          <name>Will Domain: Divine Strike</name>
+      <feature optional="YES">
+        <name>Will Domain: Divine Strike</name>
         <text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="9">
-        <slots>4, 4, 3, 3, 3, 1</slots>
-      </autolevel>
+      <slots>4, 4, 3, 3, 3, 1</slots>
+    </autolevel>
     <autolevel level="10">
-        <slots>5, 4, 3, 3, 3, 2</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2</slots>
+    </autolevel>
     <autolevel level="10">
-        <feature>
-          <name>Divine Intervention</name>
+      <feature>
+        <name>Divine Intervention</name>
         <text>Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.</text>
         <text>Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your votary level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any votary spell or votary domain spell would be appropriate. If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.</text>
         <text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="11">
-        <slots>5, 4, 3, 3, 3, 2, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1</slots>
+    </autolevel>
     <autolevel level="11">
-        <feature>
-          <name>Destroy Monstrosity (CR 2)</name>
+      <feature>
+        <name>Destroy Monstrosity (CR 2)</name>
         <text>Starting at 11th level, when a monstrosity of CR 2 or lower or lower fails its saving throw against your Turn Monstrosity feature, the creature is instantly destroyed.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="12">
-        <slots>5, 4, 3, 3, 3, 2, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1</slots>
+    </autolevel>
     <autolevel level="12" scoreImprovement="YES">
-        <feature>
-          <name>Ability Score Improvement</name>
+      <feature>
+        <name>Ability Score Improvement</name>
         <text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
         <text>If your DM allows the use of feats, you may instead take a feat.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="13">
-        <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+    </autolevel>
     <autolevel level="14">
-        <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
+    </autolevel>
     <autolevel level="14">
-        <feature>
-          <name>Destroy Monstrosity(CR 3)</name>
+      <feature>
+        <name>Destroy Monstrosity(CR 3)</name>
         <text>Starting at 14th level, when a monstrosity of CR 3 or lower fails its saving throw against your Turn Monstrosity feature, the creature is instantly destroyed.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="15">
-        <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+    </autolevel>
     <autolevel level="16">
-        <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
+    </autolevel>
     <autolevel level="16" scoreImprovement="YES">
-        <feature>
-          <name>Ability Score Improvement</name>
+      <feature>
+        <name>Ability Score Improvement</name>
         <text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
         <text>If your DM allows the use of feats, you may instead take a feat.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="17">
-        <slots>5, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
+    </autolevel>
     <autolevel level="17">
-        <feature>
-          <name>Destroy Monstrosity (CR 4)</name>
+      <feature>
+        <name>Destroy Monstrosity (CR 4)</name>
         <text>Starting at 17th level, when a monstrosity of CR 4 or lower fails its saving throw against your Turn Monstrosity   feature, the creature is instantly destroyed.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="17">
-        <feature>
-          <name>Divine Domain feature</name>
+      <feature>
+        <name>Divine Domain feature</name>
         <text>At 17th level, you gain a feature from your Divine Domain.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="17">
-        <feature optional="YES">
-          <name>Will Domain: Avatar of Battle</name>
+      <feature optional="YES">
+        <name>Will Domain: Avatar of Battle</name>
         <text>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="18">
-        <slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
+    </autolevel>
     <autolevel level="18">
-        <feature>
-          <name>Channel Divinity (3/rest)</name>
+      <feature>
+        <name>Channel Divinity (3/rest)</name>
         <text>Beginning at 18th level, you can use your Channel Divinity three times between rests.</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="19">
-        <slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
+    </autolevel>
     <autolevel level="19" scoreImprovement="YES">
-        <feature>
-          <name>Ability Score Improvement</name>
+      <feature>
+        <name>Ability Score Improvement</name>
         <text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
         <text>If your DM allows the use of feats, you may instead take a feat.</text>
         <text></text>
         <text>Source: Player's Handbook p. 36</text>
-        </feature>
-      </autolevel>
+      </feature>
+    </autolevel>
     <autolevel level="20">
-        <slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
-      </autolevel>
+      <slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
+    </autolevel>
     <autolevel level="20">
-        <feature>
-          <name>Divine Intervention Improvement</name>
+      <feature>
+        <name>Divine Intervention Improvement</name>
         <text>At 20th level, your call for intervention succeeds automatically, no roll required.</text>
-        </feature>
-      </autolevel>
-    </class>
-  </compendium>
+      </feature>
+    </autolevel>
+  </class>
+</compendium>
