@@ -1,68 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
 <compendium version="5" auto_indent="NO">
-  <race>
-    <name>Xorn</name>
-    <size>M</size>
-    <speed>20 </speed>
-    <ability>Con 2, Str 2</ability>
-    <spellAbility></spellAbility>
-    <trait>
-      <name>Age</name>
-      <text>Xorn do not age rapidly and can live up to 1000 years given they do not erode.</text>
-    </trait>
-    <trait>
-      <name>Alignment</name>
-      <text>
-        Most xorn are neutral, but some may stray from that norm because of the influences of Ogremoch and Sunnis, the good and evil achroelemental of the Plane of Earth.
-      </text>
-    </trait>
-    <trait>
-      <name>Size</name>
-      <text>
-        Xorn height ranges from 5 feet to 7 feet. Your size is Medium.
-      </text>
-    </trait>
-    <trait>
-      <name>Speed</name>
-      <text>
-        Your base walking speed is 20 feet.
-      </text>
-    </trait>
-    <trait>
-      <name>Darkvision</name>
-      <text>
-        You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-      </text>
-    </trait>
-    <trait>
-      <name>Earth Glide</name>
-      <text>
-        You have a burrowing speed of 20 feet.
-      </text>
-    </trait>
-    <trait>
-      <name>Stone Camo</name>
-      <text>
-        You have advantage in Dexterity (Stealth) checks to hide while in rocky terrain.
-      </text>
-    </trait>
-    <trait>
-      <name>Mineral Diet</name>
-      <text>
-        Instead of food and water, you must consume 5 gp worth of gems or precious metal per day or suffer a level of exhaustion. You can consome coins to satisfy this requirement.
-      </text>
-    </trait>
-    <trait>
-      <name>Rock Hard Jaw</name>
-      <text>
-        You have tough teeth. You can make an unarmed melee weapon attack using them. This deals 1d4 piercing damage, and increases by 1d4 at 5th level, 11th level, and 17th level.
-      </text>
-    </trait>
-    <trait>
-      <name>Languages</name>
-      <text>
-        You can speak, read, and write Common and Terran.
-      </text>
-    </trait>
-  </race>
+<race>
+<name>Xorn</name>
+<size>M</size>
+<speed>20 </speed>
+<ability>Con 2, Str 2</ability>
+<spellAbility></spellAbility>
+<trait>
+<name>Darkvision</name>
+<text>
+You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+</text>
+</trait>
+<trait>
+<name>Earth Glide</name>
+<text>
+You have a burrowing speed of 20 feet.
+</text>
+</trait>
+<trait>
+<name>Stone Camouflage</name>
+<text>
+You have advantage in Dexterity (Stealth) checks to hide while in rocky terrain.
+</text>
+</trait>
+<trait>
+<name>Mineral Diet</name>
+<text>
+Instead of food and water, you must consume 5 gp worth of gems or precious metal per day or suffer a level of exhaustion. You can consome coins to satisfy this requirement.
+</text>
+</trait>
+<trait>
+<name>Rock Hard Jaw</name>
+<text>
+You have tough teeth. You can make an unarmed melee weapon attack using them. This deals 1d4 piercing damage, and increases by 1d4 at 5th level, 11th level, and 17th level.
+</text>
+</trait>
+<trait>
+<name>Languages</name>
+<text>
+You can speak, read, and write Common and Terran.
+</text>
+</trait>
+</race>
 </compendium>
